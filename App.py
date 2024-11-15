@@ -1,10 +1,18 @@
 import customtkinter
+import sys
 import os
 import json
 from PIL import Image
 from tkinter import messagebox
 from components.CaseCalculator import calculate_fine_and_jail_time, validate_and_prepare_cases
 from components.Result import ToplevelWindow, SetCenterWindow
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 # Center window function
 def center_window(parent, width, height):
@@ -44,9 +52,11 @@ class App(customtkinter.CTk):
         self.grid_columnconfigure(1, weight=1)
 
         # Image assets
-        image_asset = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets/images")
-        self.home_image = customtkinter.CTkImage(Image.open(os.path.join(image_asset, "home.png")), size=(20, 20))
-        self.user_image = customtkinter.CTkImage(Image.open(os.path.join(image_asset, "user.png")), size=(20, 20))
+        home_image_path = resource_path("assets/images/home.png")
+        user_image_path = resource_path("assets/images/user.png")
+        
+        self.home_image = customtkinter.CTkImage(Image.open(home_image_path), size=(20, 20))
+        self.user_image = customtkinter.CTkImage(Image.open(user_image_path), size=(20, 20))
 
         # Create sidebar frame
         self.sidebar_frame = customtkinter.CTkFrame(self, corner_radius=0)
