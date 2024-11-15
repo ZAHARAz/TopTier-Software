@@ -5,6 +5,9 @@ This program will help you to calculate jail time and payment and help you accep
 ## Preview
 ![preview](https://img2.pic.in.th/pic/D860E9E0-F299-488F-98EC-55AEFFB0F001.png)
 
+## How to Download
+[Download!!](https://github.com/ZAHARAz/TopTier-Software/releases)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
