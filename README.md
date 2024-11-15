@@ -2,6 +2,9 @@
 
 This program will help you to calculate jail time and payment and help you accept case immediately with hotkey
 
+## Preview
+![preview](https://img2.pic.in.th/pic/D860E9E0-F299-488F-98EC-55AEFFB0F001.png)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
