@@ -1,0 +1,97 @@
+{
+    "cases": [
+        {
+            "case_name": "มีปูนไว้ในครอบครอง",
+            "payment": 900,
+            "jail_time": 300,
+            "threshold": 5,
+            "jail_time_limit": 1500
+        },
+        {
+            "case_name": "มีสายไฟไว้ในครอบครอง",
+            "payment": 800,
+            "jail_time": 300,
+            "threshold": 5,
+            "jail_time_limit": 1500
+        },
+        {
+            "case_name": "หลบหนีการจับกุม",
+            "payment": 1000,
+            "jail_time": 300,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "สุ่มเสี่ยง",
+            "payment": 500,
+            "jail_time": 300,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "ไม่มียานพาหนะในการทำงานผิดกฏหมาย",
+            "payment": 3000,
+            "jail_time": 900,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "ช่วยผู้กระทำความผิด ( หลบหนี )",
+            "payment": 1500,
+            "jail_time": 1200,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "ดูหมิ่น เจ้าหน้าที่",
+            "payment": 5000,
+            "jail_time": 1200,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "ไม่ให้ความร่วมมือกับเจ้าหน้าที่",
+            "payment": 1000,
+            "jail_time": 600,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "มีชุดเกราะไว้ครอบครอง",
+            "payment": 2500,
+            "jail_time": 600,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "กระทำผิดซึ่งหน้าหรือทำงานผิดกฏหมายต่อหน้า",
+            "payment": 1000,
+            "jail_time": 900,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "ทำลายหลักฐาน",
+            "payment": 2000,
+            "jail_time": 900,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "โพสต์ขายของผิดกฏหมาย หรือว่าแอบใช้นามแฝงก็ตาม ( หรือโพสสิ่งผิดกฏหมายงานดำ ก็ตาม )",
+            "payment": 2000,
+            "jail_time": 900,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "ช่วยเหลือผู้ก่อเหตุหลบหนี",
+            "payment": 2000,
+            "jail_time": 1200,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "ใช่รถ 2 ล้อในการทำงานดำหรือเข้าพื้นที่สุ่มเสี่ยง",
+            "payment": 10000,
+            "jail_time": 3600,
+            "requires_quantity": false
+        },
+        {
+            "case_name": "ใช้รถโลที่มีขนาดความจุตัวรถเกิน 16 กิโล ทำงานดำ/ช่วยเหลือการหลบหนี",
+            "payment": 10000,
+            "jail_time": 3600,
+            "requires_quantity": false
+        }
+    ],
+    "global_jail_time_limit": 3600
+}
